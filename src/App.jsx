@@ -1,4 +1,3 @@
-import { Instagram, MessageCircle } from "lucide-react";
 export default function TetraCoLandingPage() {
   return (
     <div className="min-h-screen bg-[#F5F1E8] text-[#2F4F3E] font-sans">
@@ -193,22 +192,30 @@ export default function TetraCoLandingPage() {
 
           <div className="flex items-center gap-6 text-sm">
   <a
-    href="https://instagram.com"
-    target="_blank"
-    className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
-  >
-    <Instagram size={18} />
-    <span>Instagram</span>
-  </a>
+  href="https://instagram.com"
+  target="_blank"
+  className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+    alt="Instagram"
+    className="w-4 h-4 opacity-70"
+  />
+  <span>Instagram</span>
+</a>
 
   <a
-    href="https://wa.me/6285183009971"
-    target="_blank"
-    className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
-  >
-    <MessageCircle size={18} />
-    <span>WhatsApp</span>
-  </a>
+  href="https://wa.me/6285183009971"
+  target="_blank"
+  className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+    alt="WhatsApp"
+    className="w-4 h-4 opacity-70"
+  />
+  <span>WhatsApp</span>
+</a>
 </div>
         </div>
       </footer>
