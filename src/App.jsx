@@ -11,9 +11,9 @@ export default function TetraCoLandingPage() {
     className="w-8 h-8 md:w-10 md:h-10 object-contain"
   />
 
-  <span className="text-xl font-semibold">
-    Tetra & Co.
-  </span>
+  <span className="text-2xl font-bebas tracking-[0.2em] uppercase">
+  Tetra & Co.
+</span>
 </div>
 
           <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
