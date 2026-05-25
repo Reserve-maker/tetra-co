@@ -190,23 +190,25 @@ export default function TetraCoLandingPage() {
             Tetra & Co.
           </h2>
 
-          <div className="flex gap-6 text-sm uppercase tracking-widest">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              className="hover:text-white transition"
-            >
-              Instagram
-            </a>
+          <div className="flex items-center gap-6 text-sm">
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
+  >
+    <span>📷</span>
+    <span>Instagram</span>
+  </a>
 
-            <a
-              href="https://wa.me/6285183009971"
-              target="_blank"
-              className="hover:text-white transition"
-            >
-              WhatsApp
-            </a>
-          </div>
+  <a
+    href="https://wa.me/6281234567890"
+    target="_blank"
+    className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
+  >
+    <span>💬</span>
+    <span>WhatsApp</span>
+  </a>
+</div>
         </div>
       </footer>
     </div>
