@@ -1,3 +1,4 @@
+import { Instagram, MessageCircle } from "lucide-react";
 export default function TetraCoLandingPage() {
   return (
     <div className="min-h-screen bg-[#F5F1E8] text-[#2F4F3E] font-sans">
@@ -196,16 +197,16 @@ export default function TetraCoLandingPage() {
     target="_blank"
     className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
   >
-    <span>📷</span>
+    <Instagram size={18} />
     <span>Instagram</span>
   </a>
 
   <a
-    href="https://wa.me/6281234567890"
+    href="https://wa.me/6285183009971"
     target="_blank"
     className="flex items-center gap-2 text-[#5E6D63] hover:text-[#2F4F3E] transition duration-300"
   >
-    <span>💬</span>
+    <MessageCircle size={18} />
     <span>WhatsApp</span>
   </a>
 </div>
