@@ -41,10 +41,9 @@ export default function TetraCoLandingPage() {
             Baju Yang Bikin A DAMN!
           </p>
 
-          <h1 className="text-5xl md:text-8xl font-black uppercase leading-normal mb-6">
+          <h1 className="text-5xl md:text-8xl font-bebas uppercase tracking-widest leading-normal mb-6">
   Tetra & Co.
 </h1>
-
           <p className="text-[#5E6D63] text-base md:text-lg max-w-2xl mx-auto leading-relaxed mb-10">
             Baju Custom yang bisa dipesan sesukamu
           </p>
@@ -76,7 +75,7 @@ export default function TetraCoLandingPage() {
               About The Brand
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bebas uppercase mb-6 leading-tight">
               Built for modern streetwear culture.
             </h2>
           </div>
@@ -100,7 +99,7 @@ export default function TetraCoLandingPage() {
               Services
             </p>
 
-            <h2 className="text-4xl md:text-6xl font-black uppercase">
+            <h2 className="text-4xl md:text-6xl font-bebas uppercase">
               What We Do
             </h2>
           </div>
@@ -140,7 +139,7 @@ export default function TetraCoLandingPage() {
                 Upcoming Catalog
               </p>
 
-              <h2 className="text-4xl md:text-6xl font-black uppercase">
+              <h2 className="text-4xl md:text-6xl font-bebas uppercase">
                 Product Preview
               </h2>
             </div>
@@ -166,7 +165,7 @@ export default function TetraCoLandingPage() {
             Ready To Start?
           </p>
 
-          <h2 className="text-4xl md:text-7xl font-black uppercase leading-tight mb-8">
+          <h2 className="text-4xl md:text-7xl font-bebas uppercase leading-tight mb-8">
             Let’s build your apparel identity.
           </h2>
 
