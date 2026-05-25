@@ -2,35 +2,39 @@ export default function TetraCoLandingPage() {
   return (
     <div className="min-h-screen bg-[#F5F1E8] text-[#2F4F3E] font-sans">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full backdrop-blur-md bg-[#F5F1E8]/80 border-b border-[#D8D2C8] z-50">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2 md:gap-3">
-  <img
-    src="/logo.png"
-    alt="Tetra & Co."
-    className="w-8 h-8 md:w-10 md:h-10 object-contain"
-  />
+<nav className="fixed top-0 left-0 w-full backdrop-blur-md bg-[#F5F1E8]/80 border-b border-[#D8D2C8] z-50">
+  <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
 
-  <span className="font-bebas whitespace-nowrap tracking-widest">
-  Tetra & Co.
-</span>
-</div>
+    {/* LOGO */}
+    <div className="flex items-center gap-2 md:gap-3 shrink-0">
+      <img
+        src="/logo.png"
+        alt="Tetra & Co."
+        className="w-7 h-7 md:w-9 md:h-9 lg:w-10 lg:h-10 object-contain"
+      />
 
-          <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
-  <a href="#about" className="hover:text-white transition">
-    About
-  </a>
+      <span className="font-bebas whitespace-nowrap text-xl md:text-2xl lg:text-3xl tracking-widest">
+        Tetra & Co.
+      </span>
+    </div>
 
-  <a href="#services" className="hover:text-white transition">
-    Services
-  </a>
+    {/* MENU */}
+    <div className="flex items-center gap-4 md:gap-6 lg:gap-10 text-sm md:text-base">
+      <a href="#about" className="hover:opacity-70 transition duration-300">
+        About
+      </a>
 
-  <a href="#contact" className="hover:text-white transition">
-    Contact
-  </a>
-</div>
-        </div>
-      </nav>
+      <a href="#services" className="hover:opacity-70 transition duration-300">
+        Services
+      </a>
+
+      <a href="#contact" className="hover:opacity-70 transition duration-300">
+        Contact
+      </a>
+    </div>
+
+  </div>
+</nav>
 
       {/* Hero Section */}
       <section className="relative flex items-center justify-center min-h-screen overflow-hidden px-6">
