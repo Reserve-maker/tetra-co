@@ -3,12 +3,12 @@ export default function TetraCoLandingPage() {
     <div className="min-h-screen bg-[#F5F1E8] text-[#2F4F3E] font-sans">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full backdrop-blur-md bg-[#F5F1E8]/80 border-b border-[#D8D2C8] z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
+          <div className="flex items-center gap-2 md:gap-3">
   <img
     src="/logo.png"
     alt="Tetra & Co."
-    className="w-10 h-10 object-contain"
+    className="w-8 h-8 md:w-10 md:h-10 object-contain"
   />
 
   <span className="text-xl font-semibold">
@@ -16,7 +16,7 @@ export default function TetraCoLandingPage() {
   </span>
 </div>
 
-          <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
+          <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
   <a href="#about" className="hover:text-white transition">
     About
   </a>
