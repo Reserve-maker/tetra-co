@@ -6,7 +6,14 @@ export default function TetraCoLandingPage() {
   <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
 
     {/* LOGO */}
-    <div className="flex items-center gap-2 md:gap-3 shrink-0">
+    <a
+ href="#"
+  className="flex items-center gap-2 md:gap-3 shrink-0"
+  onClick={(e) => {
+    e.preventDefault()
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }}
+>
       <img
         src="/logo.png"
         alt="Tetra & Co."
@@ -16,7 +23,7 @@ export default function TetraCoLandingPage() {
       <span className="font-bebas whitespace-nowrap text-xl md:text-2xl lg:text-3xl tracking-widest">
         Tetra & Co.
       </span>
-    </div>
+    </a>
 
     {/* MENU */}
     <div className="flex items-center gap-4 md:gap-6 lg:gap-10 text-sm md:text-base">

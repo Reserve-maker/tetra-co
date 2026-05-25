@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .font-bebas {
     font-family: 'Bebas Neue', sans-serif;
